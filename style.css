@@ -1,0 +1,150 @@
+@media (max-width: 2280px) {
+    body {
+      background-color: #ffd700;
+      color: peru;
+    }
+    .titleContainer {
+      border: solid peru;
+      height: 40%;
+      margin: 1em;
+      font-size: 50px;
+      text-align: center;
+    }
+    .sectionContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 2em;
+    }
+    .title-Mid, .title-Mobile {
+      display: none;
+    }
+    .picContainer{
+      border:solid black;
+      height:40vh;
+      background-image: url('https://cf.ltkcdn.net/teens/images/orig/304415-1600x1066-summer-activities-teens.jpg') ;
+      background-size: contain;
+    }
+
+    .logo {
+      border: solid blue;
+      height: 20vh;
+      margin: 2em;
+      background-color: #ffd700;
+      padding: 10px;
+      max-width: 80%; /* Adjust this value as needed */
+      object-fit: contain;
+      box-sizing: border-box; /* This ensures padding is included in the width/height */
+    }
+    
+    
+#summer, #summer1, #summer2_desktop{
+    width:250px;
+    display:block;
+    }
+#fall{
+    width:33%;
+    display:none;
+    }
+#winter{
+    width:33%;
+    display:none;
+}
+  }
+  /* ------------Desktop  */
+  
+  @media (max-width: 1480px) {
+    body {
+      background-color: lemonchiffon;
+    }
+    .titleContainer, .title-Mid, .title-Mobile {
+      border: solid burlywood;
+      height: 40vh;
+      margin: 1em;
+      font-size: 50px;
+      text-align: center;
+      color: burlywood;
+    }
+    .titleContainer, .title-Mid, .title-Mobile {
+      display: none;
+    }
+    .title-Mid {
+      display: block;
+      border-color: burlywood;
+    }
+    .picContainer{
+      border:solid black;
+      height:40vh;
+      background-image: url('https://media.istockphoto.com/id/948032164/photo/ice-cream.jpg?s=612x612&w=0&k=20&c=EWy8rEsWVuv67-DWH0a-rAlI7GSy1FAU237yg1TwFKg=') ;
+      background-size: contain;
+    }
+
+    .logo {
+      border: solid blue;
+      height: 20vh;
+      margin: 2em;
+    }
+
+#summer{
+    width:33%;
+    display:none;
+    }
+#fall{
+    width:250px;
+    display:block;
+    }
+#winter{
+    width:33%;
+    display:none;
+}
+  }
+  /* ---------------Mid  */
+  
+  
+  @media (max-width: 880px) {
+      body {
+          background-color: pink;
+      }
+      
+      .titleContainer, .title-Mid, .title-Mobile {
+          border: solid white;
+          height: 40vh;
+          margin: 1em;
+          font-size: 50px;
+          text-align: center;
+      color: white;
+    }
+    .titleContainer, .title-Mid, .title-Mobile {
+      display: none;
+    }
+    .title-Mobile {
+      display: block;
+      border-color: white;
+    }
+    .picContainer{
+      border:solid black;
+      height:40vh;
+      background-image: url('https://t3.ftcdn.net/jpg/01/94/58/96/360_F_194589639_QrC7pzqnyPtzlSNydJT7QDrWWO0kd1dt.jpg') ;
+      background-size: contain;
+    }
+  .logo {
+    border: solid blue;
+    height: 20vh;
+    margin: 2em;
+  }
+
+#summer{
+    width:33%;
+    display:none;
+    }
+#fall{
+    width:33%;
+    display:none;   
+    }
+#winter{
+    width:250px;
+    display:block;
+}
+  }
+  /* -------------Mobile  */
